@@ -1,2 +1,2 @@
 # chess-finesse-archive
-an app focused on playing chess | DISCONTINUED ARCHIVE
+an app focused on playing chess | DISCONTINUED
