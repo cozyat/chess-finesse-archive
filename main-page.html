@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ChessFinesse™</title>
+  <link rel="icon" type="image/cf-icon" href="images/favicon.ico">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3ea53c1d6b.js" crossorigin="anonymous"></script>
+
+  <script src="js/index.js"></script>
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title" style="background-image: url('images/black-chess.gif');">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand" style="color:#ffb302; text-shadow: 2px 2px 5px black;" href="main-page.html">ChessFinesse™ | </a> <a class="navbar-brand" style="color:#ffb302; text-shadow: 2px 2px 5px black;" href="main-page.html"><small>O  N  L  I  N  E</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+            <b><a class="nav-link" style="color:#ffb302; text-shadow: 2px 2px 5px black;" href="redirect-install.html">Play the Game!</a></b>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading" style="color:#ffb302; text-shadow: 2px 2px 5px black;">Play Chess Online. Crafted and Challenging.</h1>
+
+          <button style="color:white; text-shadow: 2px 2px 5px black;" type="button"
+            onclick="relocate_home()"
+            class="btn btn-warning btn-lg download-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+            </svg>
+            Play Now</button>
+            <script>
+                function relocate_home()
+                {
+                     location.href = "redirect-install.html";
+                } 
+            </script>
+        </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i style="color:#ffb302; text-shadow: 2px 2px 5px black;" class="fas fa-check-circle fa-4x icon"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p class="black">Learn chess quickly and play with it around!</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i style="color:#ffb302; text-shadow: 2px 2px 5px black;" class="fas fa-bullseye fa-4x icon"></i>
+          <h3 class="feature-title">An elite directed AI Bot.</h3>
+          <p class="black">Our bot is designed to challenge you, make sure every move you make is wise!</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 feature-box">
+          <i style="color:#ffb302; text-shadow: 2px 2px 5px black;" class="fas fa-heart fa-4x icon"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p class="black">Our perfectly, crafted chess game. Just for you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials" style="color:white; text-shadow: 2px 2px 5px black;">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">My parents won't buy me a chess set, so I found Chess Finesse and never asked for a
+             chess set after using this service!</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+        <h2><em>Rebecca Hobbs, Texas</em></h2>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Bro, it's actually so challenging to play against a literal bot. I never have
+             had so much fun!</h2>
+          <img class="testimonial-image" src="images/quandale.png" alt="quandale-profile">
+        <h2><em>Quandale Dingle, New Jersey</em></h2>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <h2 class="testimonial-text" section class="colored-section" id="press" style="font-family:palatino; color:#f4ac45; color:#ffb302; text-shadow: 2px 2px 5px black;">
+    <h2 style="color:black; text-shadow: 1px 1px 2px black;"><b><i> ChessFinesse™ is Reccomended by:</i></b></i></h2>
+  </h2>
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/tindog-logo.png" alt="tindog-logo">
+    <img class="press-logo" src="images/rockhill.png" alt="rhhs-logo" style="width:5%;">
+    <img class="press-logo" src="images/prosper-isd.png" alt="pisd-logo" style="width:7%;">
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section style="background-image: url('images/gifgit.gif'); color:white; text-shadow: 2px 2px 5px black;" class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">A Whole New Chess Experience.</h3>
+      <h2>Just for you.</h2>
+
+    <marquee><button type="button"
+      onclick="relocate_home()"
+      class="btn btn-dark btn-lg download-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+      </svg>
+      Play Now</button>
+      <script>
+          function relocate_home()
+          {
+               location.href = "redirect-install.html";
+          } 
+      </script></marquee>
+    </div
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer style="background-color:black; text-shadow: 1px 1px 1x white;" class="white-section" id="white-footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p></p>
+      <p class="white">Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script> ChessFinesse™ by Aayan Shahid and Soham Panda
+      </p>
+      <p class="white"></p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
